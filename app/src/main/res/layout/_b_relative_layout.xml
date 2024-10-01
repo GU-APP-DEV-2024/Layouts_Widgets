@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Which languages are you fluent in?" />
+
+    <CheckBox
+        android:id="@+id/english_check_box"
+        android:text="English"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text_view" />
+
+    <CheckBox
+        android:id="@+id/spanish_check_box"
+        android:text="Spanish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/english_check_box" />
+
+    <CheckBox
+        android:id="@+id/chinese_check_box"
+        android:text="Chinese"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question_text_view"
+        android:layout_toRightOf="@id/english_check_box"/>
+
+    <CheckBox
+        android:id="@+id/other_check_box"
+        android:text="Other"
+        android:layout_marginLeft="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chinese_check_box"
+        android:layout_toRightOf="@id/spanish_check_box" />
+</RelativeLayout>

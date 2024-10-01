@@ -5,7 +5,9 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import memorygame.Board
 
 class MainActivity : AppCompatActivity() {
@@ -65,8 +67,8 @@ class MainActivity : AppCompatActivity() {
 
     fun onClick(view: View) {
         view as ImageView
+        //Snackbar.make(view, "Button ${resources.getResourceEntryName(view.id)} was clicked", Snackbar.LENGTH_SHORT).show()
         var card =  board.getValueAt(getCardID(view))
-
         view.setImageResource(getImageID(card))
     }
 

@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="70dp"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="30dp"
         android:textColor="@color/white"
         android:text="GC2\nMemory Game!" />
     <TextView
@@ -36,7 +36,7 @@
         android:textSize="25sp"
         android:textColor="@color/white"
         android:text="3"/>
-    <!--<LinearLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -110,8 +110,8 @@
             android:text="[?]"
             android:src="@drawable/card_back_green"
             android:onClick="onClick"/>
-    </LinearLayout>-->
-    <GridLayout
+    </LinearLayout>
+ <!--   <GridLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:useDefaultMargins="true"
@@ -164,5 +164,5 @@
             android:textAlignment="center"
             android:text="[?]"
             android:src="@drawable/card_back_green"/>
-    </GridLayout>
+    </GridLayout>-->
 </LinearLayout>

@@ -27,11 +27,29 @@ class MainActivity : AppCompatActivity() {
 
 
         card1 = findViewById(R.id.card_1)
+        /*card1.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
         card2 = findViewById(R.id.card_2)
+        /*card2.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
         card3 = findViewById(R.id.card_3)
+        /*card3.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
         card4 = findViewById(R.id.card_4)
+        /*card4.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
         card5 = findViewById(R.id.card_5)
+        /*card5.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
         card6 = findViewById(R.id.card_6)
+        /*card6.setOnClickListener { view:View ->
+            onClick(view)
+        }*/
     }
 
     fun getCardID(view: View): Int {
